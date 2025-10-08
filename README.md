@@ -1,5 +1,3 @@
-Here’s a crisp README you can drop in at the repo root.
-
 # music-sep-clone
 
 Tiny, reproducible baseline + MWF pipeline for MUSDB18. Goal: verify DSP, scoring, and MWF quickly, then swap in FNN/BLSTM models and blending.
