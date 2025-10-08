@@ -36,7 +36,7 @@ ffmpeg -version && ffprobe -version
 
 ## Dataset
 
-Download **MUSDB18** (stem MP4, not HQ WAV) and note its path. Example:
+Download [**MUSDB18**](https://sigsep.github.io/datasets/musdb.html) (stem MP4, not HQ WAV) and note its path. Example:
 
 ```
 C:\datasets\MUSDB18
