@@ -1,0 +1,71 @@
+# --- Python bytecode/caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ipynb_checkpoints/
+.cache/
+.tox/
+.nox/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Build / packaging ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# --- Coverage ---
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local env / secrets ---
+.env
+.env.*
+*.secret
+*.key
+
+# --- Project artifacts ---
+experiments/logs/
+experiments/ckpts/
+# Keep summary JSONs at the top level of results but ignore other heavy files
+experiments/results/*
+!experiments/results/*.json
+experiments/results/wavs/**
+
+# Optional: ignore generic model files anywhere
+*.pt
+*.pth
+*.ckpt
+
+# Optional: ignore ad-hoc audio exports outside results/
+*.tmp.wav
+*.tmp.mp3
+
+# --- Datasets placed inside repo (better to keep outside) ---
+musdb18/
+.musdb18/
